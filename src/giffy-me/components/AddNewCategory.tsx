@@ -50,7 +50,7 @@ export const AddNewCategory = ( { currentCategories, onAddNewCategory } : AddNew
                         />
                     
                     <button
-                        type="button"
+                        type="submit"
                         className="bg-gray-800 text-white font-semibold text-3xl py-2 px-4 rounded-lg w-full md:w-1/3"
                     > Search </button>
                 </div>
