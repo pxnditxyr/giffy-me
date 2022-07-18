@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in GifItem Component should render GifItem component 1`] = `
+<div>
+  <article
+    class="flex flex-col justify-center items-center"
+  >
+    <img
+      alt="Naruto"
+      class="w-full h-auto object-cover rounded-lg"
+      src="https://www.imdb.com/title/tt0988824/"
+    />
+    <p
+      class="text-center text-xl font-bold text-gray-300 py-4"
+    >
+       
+      Naruto
+       
+    </p>
+  </article>
+</div>
+`;
