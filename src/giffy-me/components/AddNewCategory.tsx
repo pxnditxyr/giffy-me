@@ -36,6 +36,7 @@ export const AddNewCategory = ( { currentCategories, onAddNewCategory } : AddNew
         <form
             onSubmit={ handleSubmit }
             className="flex flex-col items-center justify-center w-full py-3 px-8"
+            aria-label="form"
             >
             <div className="flex flex-col gap-8">
                 <label className="text-amber-400 font-semibold text-3xl"> What are you thinking? </label>

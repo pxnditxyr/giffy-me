@@ -4,7 +4,7 @@ import { getGifsByCategory } from '../api/getGifsByCategory';
 import { GifInterface } from '../interfaces'
 
 export const useFetchGifs = ( category : string ) => {
-    const [ gifs, setGifs ] = useState<Array<GifInterface>>([])
+    const [ gifs, setGifs ] = useState<Array<GifInterface>>([]);
     const [ isLoading, setIsLoading ] = useState( true );
 
     const getGifs = async () => {
